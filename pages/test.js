@@ -21,14 +21,16 @@ export default function Home() {
         </a>
       </footer>
 
-      <style jsx>{`
-        .container {
-          div {
-            background: black;
-            color: red;
+      <style jsx>
+        {`
+          .container {
+            div {
+              background: black;
+              color: red;
+            }
           }
-        }
-      `}</style>
+        `}
+      </style>
     </div>
   )
 }
