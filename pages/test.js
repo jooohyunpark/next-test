@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div>
+    <div className="container">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -20,6 +20,15 @@ export default function Home() {
           Powered by <img src="/vercel.svg" alt="Vercel Logo" />
         </a>
       </footer>
+
+      <style jsx>{`
+        .container {
+          div {
+            background: black;
+            color: red;
+          }
+        }
+      `}</style>
     </div>
   )
 }
