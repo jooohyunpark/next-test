@@ -1,5 +1,4 @@
 {
-  "root": true,
   "settings": {
     "react": {
       "version": "detect"
@@ -7,10 +6,10 @@
   },
   "env": {
     "es6": true,
-    "jest": true,
     "browser": true,
     "node": true
   },
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaVersion": 2020,
     "sourceType": "module",
@@ -21,11 +20,11 @@
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:react-hooks/recommended", // React hooks rules
-    "plugin:jsx-a11y/recommended", // Accessibility rules
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": ["prettier"],
+
   "rules": {
     "no-unused-vars": "error",
 
